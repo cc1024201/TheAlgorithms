@@ -96,4 +96,10 @@ public class NodeStack<Item> {
     private void setPrevious(NodeStack<?> previous) {
         this.previous = previous;
     }
+
+    public void print() {
+        for(NodeStack<?> n = NodeStack.head; n != null; n = n.previous) {
+            System.out.println(n.getData().toString());
+        }
+    }
 }
