@@ -1,4 +1,4 @@
-package DataStructures.Heaps;
+package datastructures.heaps;
 
 /**
  * @author Cc.
